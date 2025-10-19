@@ -310,6 +310,11 @@ public class TweaksConfig {
     @Config.RequiresMcRestart
     public static boolean ic2DispenserITNT;
 
+    @Config.Comment("Fix IC2 reactor sound")
+    @Config.DefaultBoolean(true)
+    @Config.RequiresMcRestart
+    public static boolean fixIC2ReactorSound;
+
     // Minechem
 
     @Config.Comment("Minechem Atropine High (Delirium) effect ID")
