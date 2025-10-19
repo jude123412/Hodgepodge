@@ -835,7 +835,7 @@ public enum Mixins implements IMixins {
             .addCommonMixins("ic2.sound.MixinTEReactorSound")
             .setApplyIf(() -> TweaksConfig.fixIC2ReactorSound)
             .addRequiredMod(TargetedMod.IC2)
-//            .addRequiredMod(TargetedMod.GT5U)
+            .addRequiredMod(TargetedMod.GT5U)
             .setPhase(Phase.LATE)),
     IC2_KEYBINDS_ACTIVATE_IN_GUI_FIX(new MixinBuilder("Prevent Industrialcraft keybinds from activating in GUIs")
             .addClientMixins("ic2.MixinKeyboardClient_sendKeyUpdate")
